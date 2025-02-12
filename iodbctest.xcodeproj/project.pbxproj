@@ -38,6 +38,9 @@
 		731C5F0F2D288587004D99E1 /* iodbctest-unicode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iodbctest-unicode"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7389CA5D2D5BD0CB006EC75C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7389CA5E2D5BD585006EC75C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7389CA5F2D5CE4BF006EC75C /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7389CA602D5CE4BF006EC75C /* LICENSE.BSD */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.BSD; sourceTree = "<group>"; };
+		7389CA612D5CE4BF006EC75C /* LICENSE.LGPL */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.LGPL; sourceTree = "<group>"; };
 		73F3750A2CAC7FC8001BBE8D /* iodbctest-ansi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iodbctest-ansi"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F375162CAC807A001BBE8D /* iodbctest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iodbctest.c; sourceTree = "<group>"; };
 		73F375192CAC811F001BBE8D /* iODBC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iODBC.framework; path = ../../../../../Library/Frameworks/iODBC.framework; sourceTree = "<group>"; };
@@ -66,6 +69,9 @@
 		73F375012CAC7FC8001BBE8D = {
 			isa = PBXGroup;
 			children = (
+				7389CA5F2D5CE4BF006EC75C /* LICENSE */,
+				7389CA602D5CE4BF006EC75C /* LICENSE.BSD */,
+				7389CA612D5CE4BF006EC75C /* LICENSE.LGPL */,
 				7389CA5E2D5BD585006EC75C /* README.md */,
 				7389CA5D2D5BD0CB006EC75C /* .gitignore */,
 				73F375162CAC807A001BBE8D /* iodbctest.c */,
