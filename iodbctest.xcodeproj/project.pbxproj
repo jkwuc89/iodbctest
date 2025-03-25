@@ -202,7 +202,7 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = UNICODE;
-				HEADER_SEARCH_PATHS = ../iODBC/include;
+				HEADER_SEARCH_PATHS = /Library/Frameworks/iODBC.framework/Headers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)/xcode_build_unicode";
 			};
@@ -218,7 +218,7 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = UNICODE;
-				HEADER_SEARCH_PATHS = ../iODBC/include;
+				HEADER_SEARCH_PATHS = /Library/Frameworks/iODBC.framework/Headers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)/xcode_build_unicode";
 			};
@@ -353,7 +353,7 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = ../iODBC/include;
+				HEADER_SEARCH_PATHS = /Library/Frameworks/iODBC.framework/Headers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)/xcode_build_ansi";
 			};
@@ -369,7 +369,7 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = ../iODBC/include;
+				HEADER_SEARCH_PATHS = /Library/Frameworks/iODBC.framework/Headers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = "$(SRCROOT)/xcode_build_ansi";
 			};
